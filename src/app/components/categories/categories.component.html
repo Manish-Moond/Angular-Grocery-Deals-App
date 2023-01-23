@@ -1,0 +1,11 @@
+<div class="mx-24">
+    <div class="text-amber-500 text-3xl font-bold"> 
+        All Catergories
+    </div>
+    <div  class="flex justify-between mt-8">
+        <div *ngFor = "let cat of categories" class="w-24 h-24">
+        <img src={{cat.src}}>
+        <p class='text-2'>{{cat.name}}</p>
+        </div>
+    </div>
+</div>

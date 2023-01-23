@@ -1,0 +1,8 @@
+<div class="m-24">
+    <div class="text-amber-500 text-3xl font-bold">
+        Fresh Products
+    </div>
+    <div class="flex mt-8">
+            <app-fresh-product-card *ngFor = "let cat of freshProducts"  [product] = "cat"></app-fresh-product-card>
+    </div>
+</div>
